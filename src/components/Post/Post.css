@@ -1,0 +1,31 @@
+.post-meta {
+  color: gray;
+  font-size: 17px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96;
+  font-family: "Lora", "Times New Roman", serif;
+}
+.post-preview > a {
+  color: #212529;
+  text-decoration: none;
+}
+.post-preview > a:focus,
+.post-preview > a:hover {
+  text-decoration: none;
+  color: #0085a1;
+}
+.post-title {
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: light;
+}
+.post-subtitle {
+  font-weight: 300;
+  margin: 0 0 10 px;
+}
+.post-preview {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}

@@ -1,0 +1,79 @@
+p {
+  line-height: 1.5;
+  margin: 30 px 0;
+}
+.button-submit {
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+  background-color: #0085a1;
+  border-color: #0085a1;
+  font-size: 14px;
+  margin-bottom: 35px;
+  margin-top: 30px;
+  font-weight: 800;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.floating-label-form-group {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 5px;
+  padding-bottom: 0.5 em;
+  border-bottom: 1px solid #dee2e6;
+}
+.floating-label-form-group label {
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  position: relative;
+  z-index: 10;
+  top: 2 em;
+  display: block;
+  margin: 0;
+  transition: top 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  float: left;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important;
+  font-family: "Lora", "Times New Roman", serif;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25 rem + 2 px);
+  padding: 0.375 rem 0.75 rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1 px solid #ced4da;
+  border-radius: 0.25 rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.text-danger {
+  font-size: 14px !important;
+}
+.floating-label-form-group-with-focus label {
+  color: #0085a1;
+}

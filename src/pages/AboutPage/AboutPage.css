@@ -1,0 +1,17 @@
+p {
+  line-height: 1.5;
+  margin: 30 px 0;
+  font-size: 20px;
+  color: #212529;
+  font-family: "Lora", "Times New Roman", serif;
+  text-align: left;
+  width: 730px;
+}
+.container {
+  width: 100%;
+  padding-right: 15 px;
+  padding-left: 15 px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+}
